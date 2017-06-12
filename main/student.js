@@ -5,7 +5,7 @@ module.exports = Student(name,age,kclass){
  	this.kclass=kclass;	        
  	Student.prototype.introduce=function(){
     	      var s1=new Person(name,age).introduce();
-    	      var s2="I am a Student. I am at Class "+this.kclass+".";
+    	      var s2=" I am a Student. I am at Class "+this.kclass+".";
     	      return s1+s2;
         }	    	  
 }
