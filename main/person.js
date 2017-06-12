@@ -1,5 +1,4 @@
-// Write your code here
-module.exports = Person(name,age){
+module.exports = function Person(name,age){
             this.name=name;
 	    this.age=age;
 	    Person.prototype.introduce=function(){
